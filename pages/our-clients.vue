@@ -17,8 +17,8 @@
                         demographic.</p>
                     <p>This flexibility empowers us to extend our services to those who are seeking innovative solutions and
                         support in various creative endeavours.</p>
-                    <p>To work with any of our talents, send us an email at <a href="mailto:talent@thegridmanagement.com"
-                            class="primary">talent@thegridmanagement.com</a></p>
+                    <p>
+                        To work with any of our talents, send us an email at <a href="mailto:talent@thegridmanagement.com" class="primary">talent@thegridmanagement.com</a></p>
                 </div>
             </section>
             <div id="desktop">
@@ -86,6 +86,31 @@
                             <p>Visual Artist</p>
                         </div>
                     </div>
+
+                     <!-- New Profiles -->
+                     <div class="clients-card" @mouseenter="showText11 = true" @mouseleave="showText11 = false">
+                        <img src="~/assets/images/clients/TBoss.png" />
+                        <div v-if="showText11" class="clients-card-text">
+                            <p>TBoss Idowu</p>
+                            <p>Actor, Influencer, Host</p>
+                        </div>
+                    </div>
+                    <div class="clients-card" @mouseenter="showText12 = true" @mouseleave="showText12 = false">
+                        <img src="~/assets/images/clients/Anozie-Young.png" />
+                        <div v-if="showText12" class="clients-card-text">
+                            <p>Gloria Anozie-Young</p>
+                            <p>Actor</p>
+                        </div>
+                    </div>
+                    <div class="clients-card" @mouseenter="showText103 = true" @mouseleave="showText103 = false">
+                        <img src="~/assets/images/clients/Ekpenyong.png" />
+                        <div v-if="showText13" class="clients-card-text">
+                            <p>Keppy Ekpenyong</p>
+                            <p>Actor</p>
+                        </div>
+                    </div>
+                    <!-- New Profiles -->
+
                 </section>
             </div>
             <div id="mobile">
@@ -153,6 +178,31 @@
                             <p>Visual Artist</p>
                         </div>
                     </div>
+
+                    <!-- New Profiles -->
+                    <div class="clients-card">
+                        <img src="~/assets/images/clients/TBoss.png" />
+                        <div class="clients-card-text">
+                            <p>TBoss Idowu</p>
+                            <p>Actor, Influencer, Host</p>
+                        </div>
+                    </div>
+                    <div class="clients-card">
+                        <img src="~/assets/images/clients/Anozie-Young.png" />
+                        <div class="clients-card-text">
+                            <p>Gloria Anozie-Young</p>
+                            <p>Actor</p>
+                        </div>
+                    </div>
+                    <div class="clients-card">
+                        <img src="~/assets/images/clients/Ekpenyong.png" />
+                        <div class="clients-card-text">
+                            <p>Keppy Ekpenyong</p>
+                            <p>Actor</p>
+                        </div>
+                    </div>
+                    <!-- New Profiles -->
+
                 </section>
             </div>
         </section>
@@ -178,6 +228,9 @@ export default {
             showText8: false,
             showText9: false,
             showText10: false,
+            showText11: false,
+            showText12: false,
+            showText13: false,
         }
     },
     methods: {
