@@ -741,6 +741,85 @@ a{
 .page-leave-to {
   opacity: 0;
 }
+
+// devGeorge Normal 
+.horizontal-divider{
+    width: 90%;
+    height: 21px;
+    background: #F4F5F6;
+    margin: 0 auto;
+}
+.ySpace {
+    height: 50px;
+}
+.center {
+    text-align: center;
+}
+.align-center{
+    // margin: 0 auto;
+    display: flex; justify-content: center;
+}
+.btn-rounded {
+    border-radius: 50rem !important;
+    background-color: #2A5750;
+    padding: 12px 30px;
+    color:  white;
+    cursor: pointer;
+    transition-property: padding;
+    transition: 0.3s all ease-in-out;
+}
+.btn-rounded:hover {
+    transition: 0.3s all ease-in-out;
+    padding: 12px 32px;
+}
+
+.key_initiatives {
+    display: flex; 
+    justify-content: center;
+
+     img {
+        height:100px;
+        width: 100px;
+        margin-bottom: 15px;
+    }
+    .content {
+        text-align: center;
+        font-size: 20px;
+        color: #2A5750;
+        line-height: 35px;
+        margin-bottom: 25px;
+    }
+}
+
+.glow {
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+    0% {box-shadow: 0px 0px 10px 0px rgba(0, 255, 0, 0.6);}
+    100% {box-shadow: 5px 5px 18px 0px rgba(216, 222, 71, 1);}
+  }
+
+.press_card {
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 50px;
+    transition: 0.3s all ease-in-out;
+    box-shadow: 2px 2px 1px 1px #d5d4d446;
+
+    &:hover {
+        transition: 0.3s all ease-in-out;
+        box-shadow: 5px 5px 3px 1px #d5d4d446;
+    }
+}
+.colored_a {
+    color: $primary;
+}
+  
+
+// From 801 to Bigger screens
 @media (min-width:801px)  {
     #desktop {
         display: block;
@@ -964,6 +1043,16 @@ a{
                 margin-bottom: 12px;
             }
         }
+        &-col12{
+            width: 100%;
+            p{
+                font-size: 20px;
+                line-height: 31px;
+            }
+            li{
+                margin-bottom: 12px;
+            }
+        }
         &-image{
             margin: 48px auto 80px auto;
             img{
@@ -1138,6 +1227,7 @@ a{
             width: 100%;
         }
     }
+  
     .contact-card{
         background: var(--linear, linear-gradient(130deg, #075A55 0%, #DAE31F 86.68%));
         width: 100%;
@@ -1311,5 +1401,39 @@ a{
         padding-top: 64px;
         padding-bottom: 64px;
     }
+
+    // // devGeorge Media Query
+    .btn-rounded {
+        border-radius: 50rem !important;
+        background-color: #2A5750;
+        padding: 18px 48px;
+        color:  white;
+        cursor: pointer;
+        transition-property: padding;
+        transition: 0.3s all ease-in-out;
+    }
+    .btn-rounded:hover {
+        transition: 0.3s all ease-in-out;
+        padding: 18px 50px;
+    }
+    
+    .key_initiatives {
+        display: flex; 
+        justify-content: center;
+    
+         img {
+            height:160px;
+            width: 160px;
+            margin-bottom: 12px;
+        }
+        .content {
+            text-align: center;
+            font-size: 30px;
+            color: #2A5750;
+            line-height: 35px;
+        }
+    }
+
+
 }
 @media screen and (min-width: 1440px) {}

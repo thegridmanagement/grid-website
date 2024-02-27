@@ -21,6 +21,7 @@
                         To work with any of our talents, send us an email at <a href="mailto:talent@thegridmanagement.com" class="primary">talent@thegridmanagement.com</a></p>
                 </div>
             </section>
+            <!-- DESKTOP VERSION -->
             <div id="desktop">
                 <section class="clients">
                     <div class="clients-card" @mouseenter="showText1 = true" @mouseleave="showText1 = false">
@@ -38,9 +39,9 @@
                         </div>
                     </div>
                     <div class="clients-card" @mouseenter="showText3 = true" @mouseleave="showText3 = false">
-                        <img src="~/assets/images/clients/Jessica.png" />
+                        <img src="~/assets/images/clients/Blessing_Nze.png" />
                         <div v-if="showText3" class="clients-card-text">
-                            <p>Jessica Obasi</p>
+                            <p>Blessing Nze</p>
                             <p>Actor, Influencer, Content Creator</p>
                         </div>
                     </div>
@@ -87,8 +88,7 @@
                         </div>
                     </div>
 
-                     <!-- New Profiles -->
-                     <div class="clients-card" @mouseenter="showText11 = true" @mouseleave="showText11 = false">
+                    <div class="clients-card" @mouseenter="showText11 = true" @mouseleave="showText11 = false">
                         <img src="~/assets/images/clients/TBoss.png" />
                         <div v-if="showText11" class="clients-card-text">
                             <p>TBoss Idowu</p>
@@ -102,7 +102,7 @@
                             <p>Actor</p>
                         </div>
                     </div>
-                    <div class="clients-card" @mouseenter="showText103 = true" @mouseleave="showText103 = false">
+                    <div class="clients-card" @mouseenter="showText13 = true" @mouseleave="showText13 = false">
                         <img src="~/assets/images/clients/Ekpenyong.png" />
                         <div v-if="showText13" class="clients-card-text">
                             <p>Keppy Ekpenyong</p>
@@ -110,9 +110,40 @@
                         </div>
                     </div>
                     <!-- New Profiles -->
+                    <div class="clients-card" @mouseenter="showText14 = true" @mouseleave="showText14 = false">
+                        <img src="~/assets/images/clients/Darasimi_Nadi.png" />
+                        <div v-if="showText14" class="clients-card-text">
+                            <p>Darasimi Nadi</p>
+                            <p>Actor, Influencer, Host</p>
+                        </div>
+                    </div>
+                    <div class="clients-card" @mouseenter="showText15 = true" @mouseleave="showText15 = false">
+                        <img src="~/assets/images/clients/Uduak_Ekpo.png" />
+                        <div v-if="showText15" class="clients-card-text">
+                            <p>Uduak Ekpo</p>
+                            <p>Content Creator, Influencer, Actor</p>
+                        </div>
+                    </div>
+                    <div class="clients-card" @mouseenter="showText16 = true" @mouseleave="showText16 = false">
+                        <img src="~/assets/images/clients/Ariyiike_Owolagba.png" />
+                        <div v-if="showText16" class="clients-card-text">
+                            <p>Ariyiike Owolagba</p>
+                            <p>Actor, Content Creator, Host</p>
+                        </div>
+                    </div>
+                    <div class="clients-card" @mouseenter="showText17 = true" @mouseleave="showText17 = false">
+                        <img src="~/assets/images/clients/Ben_Touitou.png" />
+                        <div v-if="showText17" class="clients-card-text">
+                            <p>Ben Touitou</p>
+                            <p>Actor, Actor, Influencer</p>
+                        </div>
+                    </div>
+                    <!-- New Profiles -->
 
                 </section>
             </div>
+
+            <!-- MOBILE VERSION -->
             <div id="mobile">
                 <section class="clients">
                     <div class="clients-card">
@@ -130,9 +161,9 @@
                         </div>
                     </div>
                     <div class="clients-card">
-                        <img src="~/assets/images/clients/Jessica.png" />
+                        <img src="~/assets/images/clients/Blessing_Nze.png" />
                         <div class="clients-card-text">
-                            <p>Jessica Obasi</p>
+                            <p>Blessing Nze</p>
                             <p>Actor, Influencer, Content Creator</p>
                         </div>
                     </div>
@@ -179,7 +210,6 @@
                         </div>
                     </div>
 
-                    <!-- New Profiles -->
                     <div class="clients-card">
                         <img src="~/assets/images/clients/TBoss.png" />
                         <div class="clients-card-text">
@@ -199,6 +229,35 @@
                         <div class="clients-card-text">
                             <p>Keppy Ekpenyong</p>
                             <p>Actor</p>
+                        </div>
+                    </div>
+                    <!-- New Profiles -->
+                    <div class="clients-card">
+                        <img src="~/assets/images/clients/Darasimi_Nadi.png" />
+                        <div class="clients-card-text">
+                            <p>Darasimi Nadi</p>
+                            <p>Actor, Influencer, Host</p>
+                        </div>
+                    </div>
+                    <div class="clients-card">
+                        <img src="~/assets/images/clients/Uduak_Ekpo.png" />
+                        <div class="clients-card-text">
+                            <p>Uduak Ekpo</p>
+                            <p>Content Creator, Influencer, Actor</p>
+                        </div>
+                    </div>
+                    <div class="clients-card">
+                        <img src="~/assets/images/clients/Ariyiike_Owolagba.png" />
+                        <div class="clients-card-text">
+                            <p>Ariyiike Owolagba</p>
+                            <p>Actor, Content Creator, Host</p>
+                        </div>
+                    </div>
+                    <div class="clients-card">
+                        <img src="~/assets/images/clients/Ben_Touitou.png" />
+                        <div class="clients-card-text">
+                            <p>Ben Touitou</p>
+                            <p>Actor, Actor, Influencer</p>
                         </div>
                     </div>
                     <!-- New Profiles -->
@@ -231,6 +290,11 @@ export default {
             showText11: false,
             showText12: false,
             showText13: false,
+
+            showText14: false,
+            showText15: false,
+            showText16: false,
+            showText17: false,
         }
     },
     methods: {

@@ -66,8 +66,8 @@
                         <p>Brand Partnerships</p>
                         <p>Event Management</p>
                         <p>Digital Marketing</p>
-                        <p>Health Insurance</p>
-                        <p>Advisory</p>
+                        <p>Insurance</p>
+                        <p>Legal Advisory</p>
                     </div>
                 </div>
 
