@@ -5,7 +5,7 @@
         <section>
             <section class="section-padding grid-content">
                 <div class="grid-content-col1">
-                    <h1 class="primary">NETWORK</h1>
+                    <h1 class="primary">BRANDS</h1>
                 </div>
                 <div class="grid-content-col2">
                     <div class="divider"></div>
@@ -33,35 +33,35 @@
                     <img src="~/assets/images/brands/diamonds.svg" />
                     <p>View more <span><img src="~/assets/images/svg/arrow-right-green.svg" /></span></p>
                 </div>
-                <div @click="openModal(5)">
+                <div  @click="openModal(5)">
                     <img src="~/assets/images/brands/nem.svg" width="70px" height="86px" />
                     <p>View more <span><img src="~/assets/images/svg/arrow-right-green.svg" /></span></p>
                 </div>
-                <div class="green" @click="openModal(6)">
+                <!-- <div class="green" @click="openModal(6)">
                     <img src="~/assets/images/brands/filmone.svg" />
                     <p>View more <span><img src="~/assets/images/svg/arrow-right-white.svg" /></span></p>
-                </div>
-                <div @click="openModal(7)">
+                </div> -->
+                <!-- <div @click="openModal(7)">
                     <img src="~/assets/images/brands/quantum.svg" />
                     <p>View more <span><img src="~/assets/images/svg/arrow-right-green.svg" /></span></p>
-                </div>
+                </div> -->
                 <div class="green" @click="openModal(8)">
                     <img src="~/assets/images/brands/british-council.svg" />
-                    <p>View more <span><img src="~/assets/images/svg/arrow-right-white.svg" /></span></p>
-                </div>
-                <div class="green" @click="openModal(9)">
-                    <img src="~/assets/images/brands/tydem.svg" />
                     <p>View more <span><img src="~/assets/images/svg/arrow-right-white.svg" /></span></p>
                 </div>
                 <div @click="openModal(10)">
                     <img src="~/assets/images/brands/canon.svg" />
                     <p>View more <span><img src="~/assets/images/svg/arrow-right-green.svg" /></span></p>
                 </div>
-                <div class="green" @click="openModal(11)">
-                    <img src="~/assets/images/brands/gac.svg" />
+                <div class="green" @click="openModal(9)">
+                    <img src="~/assets/images/brands/tydem.svg" />
                     <p>View more <span><img src="~/assets/images/svg/arrow-right-white.svg" /></span></p>
                 </div>
-                <div @click="openModal(12)">
+                <!-- <div class="green" @click="openModal(11)">
+                    <img src="~/assets/images/brands/gac.svg" />
+                    <p>View more <span><img src="~/assets/images/svg/arrow-right-white.svg" /></span></p>
+                </div> -->
+                <div class="green" @click="openModal(12)">
                     <img src="~/assets/images/brands/degzy.svg" />
                     <p>View more <span><img src="~/assets/images/svg/arrow-right-green.svg" /></span></p>
                 </div>

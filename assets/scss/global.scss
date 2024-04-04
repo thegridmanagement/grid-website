@@ -817,7 +817,106 @@ a{
 .colored_a {
     color: $primary;
 }
+
+.workshop {
+    // background-color: blue;
+    .workshop-title {
+        text-align: center;
+        color:  #282A3A;
+        max-width: 88%;
+        margin: 0 auto;
+    }
+    .workshop-subtitle {
+        text-align: center;
+        color:  #282A3A;
+        max-width: 80%;
+        margin: 24px auto;
+    }
+    .workshop-subtitle > p{
+        font-size: 16px !important;
+    }
+
+    // btn
+
+    .workshop-image {
+        text-align: center;
+    }
+    .workshop-image > img {
+        width: 80%;
+    }
+
+    .workshop-record{
+        color: #282A3A;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin-bottom: 30px;
+        margin-top: 80px;
+    }
+    .workshop-record > div{
+        flex: 1;
+        padding: 0.5em;/* add some padding ?*/
+        text-align: center;
+        border-right: 0.7px solid black;
+    }
+    .workshop-record > div:last-child{
+        border: none; 
+    }
+    
+   
+}
+
+.marquee {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .marquee div {
+      display: inline-block;
+      animation: marquee 15s linear infinite;
+    }
+    .marquee div  img{
+        width: 50%;
+    }
+
+  @keyframes marquee {
+    0% {
+      transform: translateX(100vw);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  .btn-rounded {
+        border-radius: 50rem !important;
+        background-color: #2A5750;
+        padding: 18px 48px;
+        color:  white;
+        cursor: pointer;
+        transition-property: padding;
+        transition: 0.3s all ease-in-out;
+    }
+    .btn-topRight-bottomLeft-rounded {
+        border-top-right-radius: 32px !important;
+        border-bottom-left-radius: 32px !important;
+        background-color: #2A5750;
+        padding: 18px 48px;
+        color:  white;
+        cursor: pointer;
+        transition-property: padding;
+        transition: 0.3s all ease-in-out;
+    }
+    .btn-rounded:hover, 
+    .btn-topRight-bottomLeft-rounded:hover {
+        transition: 0.3s all ease-in-out;
+        padding: 18px 50px;
+    }
   
+//   @media only screen and (min-width: 320px) and (max-width: 801px)  {}
 
 // From 801 to Bigger screens
 @media (min-width:801px)  {
@@ -1412,7 +1511,18 @@ a{
         transition-property: padding;
         transition: 0.3s all ease-in-out;
     }
-    .btn-rounded:hover {
+    .btn-topRight-bottomLeft-rounded {
+        border-top-right-radius: 32px !important;
+        border-bottom-left-radius: 32px !important;
+        background-color: #2A5750;
+        padding: 18px 48px;
+        color:  white;
+        cursor: pointer;
+        transition-property: padding;
+        transition: 0.3s all ease-in-out;
+    }
+    .btn-rounded:hover, 
+    .btn-topRight-bottomLeft-rounded:hover {
         transition: 0.3s all ease-in-out;
         padding: 18px 50px;
     }
@@ -1434,6 +1544,57 @@ a{
         }
     }
 
+    //
+    .workshop {
+        .workshop-title {
+            text-align: center;
+            color:  #282A3A;
+            max-width: 65%;
+            margin: 0 auto;
+        }
+        .workshop-subtitle {
+            text-align: center;
+            color:  #282A3A;
+            max-width: 40%;
+            margin: 24px auto;
+        }
+        .workshop-subtitle > p{
+            font-size: 16px !important;
+        }
+
+        // btn
+
+        .workshop-image {
+            text-align: center;
+        }
+        .workshop-image > img {
+            width: 35%;
+        }
+
+        .workshop-record{
+             color: #282A3A;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            margin-bottom: 30px;
+            margin-top: 80px;
+        }
+        .workshop-record > div{
+            flex: 1;
+            padding: 0.5em;/* add some padding ?*/
+            text-align: center;
+            border-right: 0.7px solid black;
+        }
+        .workshop-record > div:last-child{
+            border: none; 
+        }
+    }
+    .marquee div  img{
+        width: 35%;
+    }
+    //
 
 }
 @media screen and (min-width: 1440px) {}

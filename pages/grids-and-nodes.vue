@@ -20,7 +20,7 @@
                 <div class="grid-content-col3">
                     <h1 class="primary">About <span class="secondary">Us</span></h1>
                     <p>
-                        Grid & Nodes Africa stands as a non-profit organization, initiated by The Grid Management, with a dedicated commitment to actively championing the creative industry. We strive to provide a broad spectrum of support, including diversity initiatives, educational opportunities, leadership programs, and more, tailored to benefit ALL creatives. Our primary goal is to aid creative individuals in their respective disciplines, nurturing growth and development within the creative community.
+                        Grid & Nodes Africa stands as a non-profit organization, initiated by The Grid Management, with a dedicated commitment to actively championing the creative industry. We strive to provide a broad spectrum of support, including diversity initiatives, educational opportunities, leadership programs, and more, tailored to benefit ALL creatives, especially women. Our primary goal is to aid creative individuals in their respective disciplines, nurturing growth and development within the creative community.
                     </p>
                 </div>
                 <div class="grid-content-col2"></div>
@@ -137,14 +137,14 @@
             <div  class="ySpace"></div>
             <div  class="ySpace"></div>
             <section class="section-padding align-center">
-                <a href="https://forms.gle/8hvieVGSgwWA6QUb6" target="blank" title="Google Form">
+                <router-link to="/grid-and-nodes-workshops">
                     <div class=" btn-rounded">
-                        <span style="padding-right: 10px;"> Register for our upcoming workshops here </span>
+                        <span style="padding-right: 10px;"> View more details about the workshops here </span>
                         <span>
                             <img src="~/assets/images/icons/arrow-right.png"  width= "40px" />
                         </span>
                     </div>
-                </a>
+                </router-link>
             </section>
            
         </section>

@@ -231,7 +231,7 @@
             </div>
         </div>
 
-        <div v-if="pageNumber === 12" class="grid-modal-card">
+        <div v-if="pageNumber === 12" class="grid-modal-card green">
             <div class="grid-modal-card-col1">
                 <div class="modal-image">
                     <img src="~/assets/images/brands/degzy.svg" />
