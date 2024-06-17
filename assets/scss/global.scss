@@ -1598,3 +1598,9 @@ a{
 
 }
 @media screen and (min-width: 1440px) {}
+
+.object-fit{
+    object-fit: cover;
+    max-height: 326px;
+    border-radius: 0px 15px 15px 15px;
+}

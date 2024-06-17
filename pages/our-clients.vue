@@ -111,7 +111,7 @@
                     </div>
                     <!-- New Profiles -->
                     <div class="clients-card" @mouseenter="showText14 = true" @mouseleave="showText14 = false">
-                        <img src="~/assets/images/clients/Darasimi_Nadi.png" />
+                        <img src="~/assets/images/clients/Darasimi_Nadi.jpg" class="object-fit"/>
                         <div v-if="showText14" class="clients-card-text">
                             <p>Darasimi Nadi</p>
                             <p>Actor, Influencer, Host</p>
@@ -135,11 +135,18 @@
                         <img src="~/assets/images/clients/Ben_Touitou.png" />
                         <div v-if="showText17" class="clients-card-text">
                             <p>Ben Touitou</p>
-                            <p>Actor, Actor, Influencer</p>
+                            <p>Actor, Influencer</p>
                         </div>
                     </div>
                     <!-- New Profiles -->
 
+                    <div class="clients-card" @mouseenter="showText18 = true" @mouseleave="showText18 = false">
+                        <img src="~/assets/images/clients/Somadina_Anyama.jpg" class="object-fit" />
+                        <div v-if="showText18" class="clients-card-text">
+                            <p>Somadina Anyama</p>
+                            <p>Actor, Musician, Influencer</p>
+                        </div>
+                    </div>
                 </section>
             </div>
 
@@ -233,7 +240,7 @@
                     </div>
                     <!-- New Profiles -->
                     <div class="clients-card">
-                        <img src="~/assets/images/clients/Darasimi_Nadi.png" />
+                        <img src="~/assets/images/clients/Darasimi_Nadi.jpg"  class="object-fit" />
                         <div class="clients-card-text">
                             <p>Darasimi Nadi</p>
                             <p>Actor, Influencer, Host</p>
@@ -257,11 +264,17 @@
                         <img src="~/assets/images/clients/Ben_Touitou.png" />
                         <div class="clients-card-text">
                             <p>Ben Touitou</p>
-                            <p>Actor, Actor, Influencer</p>
+                            <p>Actor, Influencer</p>
                         </div>
                     </div>
                     <!-- New Profiles -->
-
+                    <div class="clients-card">
+                        <img src="~/assets/images/clients/Somadina_Anyama.jpg" class="object-fit"/>
+                        <div class="clients-card-text">
+                            <p>Somadina Anyama</p>
+                            <p>Actor, Musician, Influencer</p>
+                        </div>
+                    </div>
                 </section>
             </div>
         </section>
@@ -295,6 +308,7 @@ export default {
             showText15: false,
             showText16: false,
             showText17: false,
+            showText18: false,
         }
     },
     methods: {

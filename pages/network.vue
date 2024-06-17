@@ -69,6 +69,10 @@
                     <img src="~/assets/images/brands/redbox.svg" />
                     <p>View more <span><img src="~/assets/images/svg/arrow-right-green.svg" /></span></p>
                 </div>
+                <div @click="openModal(14)">
+                    <img src="~/assets/images/brands/unicaf.png" />
+                    <p>View more <span><img src="~/assets/images/svg/arrow-right-green.svg" /></span></p>
+                </div>
             </section>
         </section>
 
