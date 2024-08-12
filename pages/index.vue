@@ -35,7 +35,7 @@
               <h2 :class="[activeMenu === 2 ? 'active' : '']" @click="setActiveMenu(2)">
                 For Brands</h2>
               <h2><router-link to="/nodes">Nodes by TGA</router-link></h2>
-              <h2><router-link to="/grids-and-nodes">Grid & Nodes Africa</router-link></h2>
+              <h2><a href="https://www.gnafrica.com" target="_blank">Grid & Nodes Africa</a></h2>
               <transition name="slide-fade">
                 <div class="mt-5">
                   <p><router-link to="/about">About</router-link></p>
@@ -100,7 +100,7 @@
               </div>
               <h2><router-link to="/nodes">Nodes by TGA</router-link></h2>
 
-              <h2><router-link to="/grids-and-nodes">Grid & Nodes Africa</router-link></h2>
+              <h2><a href="https://www.gnafrica.com" target="_blank">Grid & Nodes Africa</a></h2>
 
               <div class="mt-5">
                 <p><router-link to="/about">About</router-link></p>
