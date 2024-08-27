@@ -73,6 +73,26 @@
                     <img src="~/assets/images/brands/unicaf.png" />
                     <p>View more <span><img src="~/assets/images/svg/arrow-right-green.svg" /></span></p>
                 </div>
+                <div @click="openModal(15)">
+                    <img src="~/assets/images/brands/lg.png" />
+                    <p>View more <span><img src="~/assets/images/svg/arrow-right-green.svg" /></span></p>
+                </div>
+                <div @click="openModal(16)">
+                    <img src="~/assets/images/brands/gomycode.png" />
+                    <p>View more <span><img src="~/assets/images/svg/arrow-right-green.svg" /></span></p>
+                </div>
+                <div @click="openModal(17)">
+                    <img src="~/assets/images/brands/gotv.png" />
+                    <p>View more <span><img src="~/assets/images/svg/arrow-right-green.svg" /></span></p>
+                </div>
+                <div @click="openModal(18)">
+                    <img src="~/assets/images/brands/filmone.png" />
+                    <p>View more <span><img src="~/assets/images/svg/arrow-right-green.svg" /></span></p>
+                </div>
+                <div @click="openModal(19)">
+                    <img src="~/assets/images/brands/id-africa.png" />
+                    <p>View more <span><img src="~/assets/images/svg/arrow-right-green.svg" /></span></p>
+                </div>
             </section>
         </section>
 
