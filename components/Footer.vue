@@ -9,7 +9,7 @@
                 <div id="mobile">
                     <img src="~/assets/images/svg/grid-logo.png" class="mobile-footer-logo" />
                 </div>
-                <h5>The Grid Management is a full service talent management company providing representation, opportunities
+                <h5>The Grid Management is a creative talent solutions company providing representation, opportunities
                     and solutions to the best talents and brands in Africa.</h5>
             </div>
             <div class="footer-section1-col2">
@@ -27,7 +27,7 @@
                     <ul>
                         <li><nuxt-link to="/brands">About</nuxt-link></li>
                         <li><nuxt-link to="/services-and-capabilities">Services & Capabilities</nuxt-link></li>
-                        <li><nuxt-link to="/nodes">Nodes by TGA</nuxt-link></li>
+                        <!-- <li><nuxt-link to="/nodes">Nodes by TGA</nuxt-link></li> -->
                     </ul>
                 </div>
                 <div>

@@ -69,7 +69,7 @@
                     <img src="~/assets/images/brands/redbox.svg" />
                     <p>View more <span><img src="~/assets/images/svg/arrow-right-green.svg" /></span></p>
                 </div>
-                <div @click="openModal(14)">
+                <div class="green" @click="openModal(14)">
                     <img src="~/assets/images/brands/unicaf.png" />
                     <p>View more <span><img src="~/assets/images/svg/arrow-right-green.svg" /></span></p>
                 </div>
@@ -81,7 +81,7 @@
                     <img src="~/assets/images/brands/gomycode.png" />
                     <p>View more <span><img src="~/assets/images/svg/arrow-right-green.svg" /></span></p>
                 </div>
-                <div @click="openModal(17)">
+                <div class="green" @click="openModal(17)">
                     <img src="~/assets/images/brands/gotv.png" />
                     <p>View more <span><img src="~/assets/images/svg/arrow-right-green.svg" /></span></p>
                 </div>
@@ -89,7 +89,7 @@
                     <img src="~/assets/images/brands/filmone.png" />
                     <p>View more <span><img src="~/assets/images/svg/arrow-right-green.svg" /></span></p>
                 </div>
-                <div @click="openModal(19)">
+                <div class="green" @click="openModal(19)">
                     <img src="~/assets/images/brands/id-africa.png" />
                     <p>View more <span><img src="~/assets/images/svg/arrow-right-green.svg" /></span></p>
                 </div>

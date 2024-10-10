@@ -16,7 +16,7 @@
                 </p>
             </section>
             <section class="section-padding align-center">
-                <a href="https://forms.gle/8hvieVGSgwWA6QUb6" target="blank" title="Google Form">
+                <a href="https://us06web.zoom.us/meeting/register/tZcqfuqrrDopGteIzLYVN18XPV1U1UVKAPZJ" target="blank" title="Google Form">
                     <div class="btn-topRight-bottomLeft-rounded">
                         <span style="padding-right: 10px;"> Register for our upcoming workshops here </span>
                         <span>
@@ -29,21 +29,21 @@
 
             <router-link to="/grids-and-nodes">
                 <section class="workshop-image">
-                    <img src="~/assets/images/all-workshops.png" width="40%" />
+                    <img src="~/assets/images/all-workshops.jpg" width="40%" style="border-radius: 50px;" />
                 </section>
             </router-link>
             <!-- <section class="workshop-record align-center"> -->
                 <section class="workshop-record">
                <div>
-                    <h1> 2 </h1>
+                    <h1> 5 </h1>
                     <p> Workshops held </p>
                </div>
                <div>
-                    <h1> 548 </h1>
+                    <h1> 743 </h1>
                     <p> Attendees </p>
                </div>
                <div>
-                    <h1> 9 </h1>
+                    <h1> 15 </h1>
                     <p> Facilitators </p>
                </div>
                <div>

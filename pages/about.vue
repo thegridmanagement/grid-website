@@ -14,7 +14,7 @@
                     <div class="divider"></div>
                 </div>
                 <div class="grid-content-col3">
-                    <p>The Grid Management is a full service talent management company providing representation,
+                    <p>The Grid Management is a creative talent solutions company providing representation,
                         opportunities and solutions to the best talents and brands in Africa.</p>
                     <p>Through our two flagships, Nodes and The Grid Agency, we avail global opportunities to creatives
                         primarily in the entertainment and film space.</p>

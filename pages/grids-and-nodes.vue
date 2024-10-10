@@ -4,7 +4,7 @@
 
         <section>
             <section class="section-padding align-center">
-                <a href="https://us06web.zoom.us/webinar/register/WN_p7dUileWT-GWmS1YH3P0JA" target="blank" title="Google Form">
+                <a href="https://us06web.zoom.us/meeting/register/tZcqfuqrrDopGteIzLYVN18XPV1U1UVKAPZJ" target="blank" title="Google Form">
                     <div class=" btn-rounded glow" >
                         <span style="padding-right: 10px;"> Register for our upcoming workshops here </span>
                         <span>
